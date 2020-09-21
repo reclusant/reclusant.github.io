@@ -1,1 +1,1 @@
-# [![不要裂开](image/pic1.jpg)](http://reclusant.github.io)
+# [![不要裂开](image/完全明白の早苗.png)](http://reclusant.github.io)
