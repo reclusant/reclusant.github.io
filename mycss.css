@@ -20,6 +20,7 @@ p {
 
 a {
     font-size: 20px;
+    target: "_blank";
 }
 
 img {
