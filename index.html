@@ -1,53 +1,69 @@
 <!doctype html>
+<!--
+    这里是@微言蚁
+    写这个网页时我才刚刚学习html，所以会对一些简单的代码进行记忆性注释
+-->
 <html lang="zh-CN">
+<!--中文网页-->
 
 <head>
+    <meta charset="UTF-8" />
+    <!--字符集是万国码-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <!--听说是移动设备兼容？-->
+    <link rel="icon" href="image/icon/head.jpg" type="image/x-icon" />
+    <title>我永远喜欢阿猹:)</title>
     <link rel="stylesheet" type="text/css" href="mycss.css">
 </head>
 
 <body>
 
-    <h1>@微言蚁</h1>
+
+    <h1 id="headname">@微言蚁</h1>
     <hr/>
-    <!--   这是水平线 -->
-    <p>这是我一时兴起做的博客，耗时1.5days</p>
+    <!--section-->
+    <!--没做完-->
+    <!--intro-->
+    <p>这是我一时兴起做的博客，从开始到构建好耗时1.5days</p>
     <p>源码可以在<a href="https://github.com/reclusant/reclusant.github.io">我的github</a>上随便看</p>
     <p class="smallp">没错我也觉得丑的一b，但我又不会网页设计，也懒得找模板，所以就算了吧</p>
-    <div style="height:300px;width=800px;padding:20px;color:#0099FF;">
-        <div style="float:left;margin-left:250px;">
+    <div id="links" style="height:300px;width=800px;padding:20px;color:#0099FF;">
+        <span style="float:left;margin-left:250px;">
             <p>my bilibili homepage</p>
-            <a href="https://space.bilibili.com/12219245">
-                <img src="image/微言蚁1.jpg">
+            <a href="https://space.bilibili.com/12219245" target="_blank">
+                <img src="image/微言蚁1.jpg" alt="bilibili头像">
             </a>
-        </div>
-        <div style="float:left;margin-left:100px;">
+        </span>
+        <span style="float:left;margin-left:100px;">
             <p>my weibo homepage</p>
-            <a href="https://weibo.com/RvesClub">
-                <img src="image/modeus.png">
+            <a href="https://weibo.com/RvesClub" target="_blank">
+                <img src="image/modeus.png" alt="weibo头像">
             </a>
-        </div>
-        <div style="float:left;margin-left:100px;">
+        </span>
+        <span style="float:left;margin-left:100px;">
             <p>my zhihu homepage</p>
-            <a href="https://www.zhihu.com/people/reclusant">
-                <img src="image/head1.jpg">
+            <a href="https://www.zhihu.com/people/reclusant" target="_blank">
+                <img src="image/head1.jpg" alt="zhuhu头像">
             </a>
-        </div>
+        </span>
     </div>
     <br/>
     <p class="bigp">实际上，你可以在几乎任何地方找到我</p>
-    <hr/>
     <p>以后可能会不断优化，可能 </p>
-
-    <div style="padding:100px">
-        <!-- 填充空白-->
+    <hr/>
+    <!--puzzle-->
+    <div id="puzzle" style="padding:150px">
         <p class="bigp">↓这是我自己编的低技术力屑题↓</p>
         <a href="解密（低技术力粪作）/低技术力粪作.rar" download="低技术力粪作">
             <img src="image/puzzle.bmp" style="width:270px;height:200px;">
         </a>
     </div>
-
+    <div style="background-color: #77FFFF;height: 20px;">
+        <a href="#headname">返回开头</a>
+    </div>
     <hr/>
-    <p>@Reclusant</p>
+    <p id="power">@Reclusant</p>
 </body>
 
 </html>
