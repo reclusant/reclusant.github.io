@@ -37,18 +37,18 @@ span {
 }
 
 #bilibili {
-    margin-left: 300px;
+    margin-left: 320px;
 }
 
 #zhihu {
-    margin-right: 300px;
+    margin-right: 320px;
 }
 
 #links-to-my-homepages {
     height: 300px;
     padding: 20px;
     color: #0099FF;
-    background-color: #1b7c7c;
+    background-color: #e0ffff;
 }
 
 #my-github {
