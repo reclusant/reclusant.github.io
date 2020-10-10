@@ -30,3 +30,39 @@ img {
 div {
     padding: 20px;
 }
+
+span {
+    float: left;
+    margin-left: 100px;
+}
+
+#bilibili {
+    margin-left: 300px;
+}
+
+#zhihu {
+    margin-right: 300px;
+}
+
+#links-to-my-homepages {
+    height: 300px;
+    padding: 20px;
+    color: #0099FF;
+    background-color: #e0ffff;
+}
+
+#my-github {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#goto-headname {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #d3ffff;
+    color: #05f0ff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+}
