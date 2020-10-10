@@ -66,3 +66,12 @@ span {
     text-align: center;
     line-height: 30px;
 }
+
+@media only screen and (max-width: 640px) {
+    /*这里书写手机端的css代码，手机端的css代码是在pc端的代码基础上书写，类似于补充*/
+    /*仅仅只是尝试一下*/
+    span {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
