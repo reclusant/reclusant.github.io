@@ -98,7 +98,7 @@ img {
     width: 80%;
 }
 
-.section-menu {
+.section .section-menu {
     float: left;
     background-color: rgb(119, 209, 245);
     width: 100%;
