@@ -1,11 +1,19 @@
 body {
     background-color: #eeffff;
     text-align: center;
+    margin: 0px;
+}
+
+#headname {
+    margin-top: 0px;
+    line-height: 70px;
+    height: 50px;
 }
 
 p {
     /*默认字号*/
     font-size: 15px;
+    margin: 8px;
 }
 
 .smallp {
@@ -27,33 +35,41 @@ img {
     height: 200px;
 }
 
-div {
-    padding: 20px;
-}
-
-span {
-    float: left;
-    margin-left: 100px;
-}
-
-#bilibili {
-    margin-left: 320px;
-}
-
-#zhihu {
-    margin-right: 320px;
-}
-
 #links-to-my-homepages {
     height: 300px;
     padding: 20px;
     color: #0099FF;
     background-color: #e0ffff;
+    margin: 0 auto;
+}
+
+#links-to-my-homepages span {
+    float: left;
+    width: 20%;
+    /* margin-left: 100px; */
+}
+
+#bilibili {
+    margin-left: 10%;
+}
+
+#zhihu {
+    margin-right: 10%;
+}
+
+#weibo {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#note1 {
+    background-color: #f0ffff;
 }
 
 #my-github {
     color: blueviolet;
     text-decoration: none;
+    font-size: 20px;
 }
 
 #goto-headname {
@@ -61,10 +77,56 @@ span {
     width: 100px;
     height: 30px;
     background-color: #d3ffff;
-    color: #05f0ff;
+    color: #0599ff;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
+}
+
+.section {
+    position: fixed;
+    background-color: #0099ff;
+    width: 10%;
+    height: 100%;
+    margin: 0px;
+}
+
+.section .section-content {
+    border-left: 30px solid #0079ca;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+.section-menu {
+    float: left;
+    background-color: rgb(119, 209, 245);
+    width: 100%;
+    height: 6%;
+    /* border-bottom: 3px solid #00d2ff; */
+    line-height: 150%;
+}
+
+.section a {
+    display: block;
+    height: 30px;
+    width: 80%;
+    background-color: #0088ff;
+    margin-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.section a:link,
+.section a:visited {
+    color: #0011ff;
+}
+
+.main-content {
+    float: right;
+    width: 90%;
 }
 
 @media only screen and (max-width: 640px) {
