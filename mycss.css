@@ -36,7 +36,7 @@ img {
 }
 
 #links-to-my-homepages {
-    height: 300px;
+    height: 250px;
     padding: 20px;
     color: #0099FF;
     background-color: #e0ffff;
@@ -49,17 +49,22 @@ img {
     /* margin-left: 100px; */
 }
 
-#bilibili {
+#links-to-my-homepages .link-and-img {
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+#links-to-my-homepages #bilibili {
     margin-left: 10%;
 }
 
-#zhihu {
+#links-to-my-homepages #weibo {
+    margin-left: 10%;
     margin-right: 10%;
 }
 
-#weibo {
-    margin-left: 10%;
-    margin-right: 10%;
+#links-to-my-homepages #zhihu {
+    margin-right: 5%;
 }
 
 #note1 {
