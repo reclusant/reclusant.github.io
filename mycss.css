@@ -119,6 +119,11 @@ img {
     font-size: 25px;
 }
 
+.section .menu {
+    font-size: 25px;
+    color: #0055ff;
+}
+
 .section a:link,
 .section a:visited {
     color: #0011ff;
