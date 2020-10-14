@@ -1,79 +1,222 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <!--
-    这里是@微言蚁
-    写这个网页时我才刚刚学习html，所以会对一些简单的代码进行记忆性注释
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="zh-CN">
-<!--中文网页-->
+<!--
+    @Reclusant 用于学习交流
+-->
+<html>
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <!--字符集是万国码-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie-edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <!--听说是移动设备兼容？-->
-    <link rel="icon" href="image/icon/head.jpg" type="image/x-icon" />
+    <link rel="icon" href="images/icon/head.jpg" type="image/x-icon" />
     <title>我永远喜欢阿猹:)</title>
-    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-    <!--section-->
+<body class="is-preload">
 
-    <div class="section">
-        <div class="section-menu">
-            <p class="menu">menu</p>
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">欢迎</a></li>
+                    <li><a href="#homepages">主页</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#connection">联络</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="section-content">
-            <a href="#links-to-my-homepages">findme</a>
-            <a href="#puzzle">puzzle</a>
-        </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Intro -->
+        <section id="intro" class="wrapper style1 fullscreen fade-up">
+            <div class="inner">
+                <h1>@微言蚁</h1>
+                <h3>@Reclusant</h3>
+                <p>
+                    这是我借用的一个模板，来自 <a href="http://html5up.net">HTML5 UP</a><br /> 遵循 <a href="http://html5up.net/license">使用协议</a>. <br/> 但是我会慢慢对其进行魔改，各种版本见
+                    <a href="diary/diary.html">日志</a>
+                </p>
+                <ul class="actions">
+                    <li><a href="#homepages" class="button scrolly">我的主页</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- homepages -->
+        <section id="homepages" class="wrapper style2 spotlights">
+            <section id="bilibili-homepage">
+                <a href="https://space.bilibili.com/12219245" class="image"><img src="images/微言蚁1.jpg" alt="bilibili-homepage" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>我的bilibili主页</h2>
+                        <p>目前没有视频，不过有几部小说先放在了上面。</p>
+                        <ul class="actions">
+                            <li><a href="https://space.bilibili.com/12219245" class="button">去看看</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="weibo-homepage">
+                <a href="https://weibo.com/RvesClub" class="image"><img src="images/modeus.png" alt="weibo-homepage" data-position="top center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>我的微博主页</h2>
+                        <p>啥也没有，主要拿来倒垃圾。</p>
+                        <ul class="actions">
+                            <li><a href="https://weibo.com/RvesClub" class="button">去看看</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="zhihu-homepage">
+                <a href="https://www.zhihu.com/people/reclusant" class="image"><img src="images/head1.jpg" alt="zhihu-homepage" data-position="25% 25%" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>我的知乎主页</h2>
+                        <p>没有文章，只有谁都能说的回答。没啥营养。</p>
+                        <ul class="actions">
+                            <li><a href="https://www.zhihu.com/people/reclusant" class="button">去看看</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="wrapper style3 fade-up">
+            <div class="inner">
+                <h2>一些项目</h2>
+                <p>我自己做的一些无聊项目，基本属于半废弃状态。</p>
+                <div class="features">
+                    <section>
+                        <span class="icon solid major fa-code"></span>
+                        <h3>低技术力屑题</h3>
+                        <p>给npp2供的应该不会被采用的题。以后可能会直接移植到网站上。<a href="puzzle/低技术力粪作.rar" download="低技术力粪作">下载链接</a></p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-lock"></span>
+                        <h3>这后面都是模板给的样式</h3>
+                        <p>我这样的懒鬼还没有那么多项目可以放，就不改了，放这里凑字数算了。</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-cog"></span>
+                        <h3>Sed erat ullam corper</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-desktop"></span>
+                        <h3>Veroeros quis lorem</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-link"></span>
+                        <h3>Urna quis bibendum</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon major fa-gem"></span>
+                        <h3>Aliquam urna dapibus</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    </section>
+                </div>
+                <ul class="actions">
+                    <li><a href="generic.html" class="button">这里是不存在的详情页</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- connection -->
+        <section id="connection" class="wrapper style1 fade-up">
+            <div class="inner">
+                <h2>联系我</h2>
+                <p>这后面的表格是模板给的，看上去挺nb，删了可惜，先留着。</p>
+                <div class="split style1">
+                    <section>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><a href="" class="button submit">Send Message</a></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section>
+                        <ul class="contact">
+                            <li>
+                                <h3>Address</h3>
+                                <span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+                            </li>
+                            <li>
+                                <h3>Email</h3>
+                                <a href="#">user@untitled.tld</a>
+                            </li>
+                            <li>
+                                <h3>Phone</h3>
+                                <span>(000) 000-0000</span>
+                            </li>
+                            <li>
+                                <h3>Social</h3>
+                                <ul class="icons">
+                                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
     </div>
-    <div class="main-content">
-        <h1 id="headname">@微言蚁</h1>
-        <hr/>
-        <!--intro-->
-        <p>这是我一时兴起做的博客，从开始到构建好耗时1.5days</p>
-        <p>源码可以在<a href="https://github.com/reclusant/reclusant.github.io" id="my-github">&nbsp;我的github&nbsp;</a>上随便看</p>
-        <p class="smallp">没错我也觉得丑的一b，但我又不会网页设计，也懒得找模板，所以就算了吧</p>
-        <div id="links-to-my-homepages">
-            <span id="bilibili" class="link-and-img">
-            <p>my bilibili homepage</p>
-            <a href="https://space.bilibili.com/12219245" target="_blank">
-                <img src="image/微言蚁1.jpg" alt="bilibili头像">
-            </a>
-        </span>
-            <span id="weibo" class="link-and-img">
-            <p>my weibo homepage</p>
-            <a href="https://weibo.com/RvesClub" target="_blank">
-                <img src="image/modeus.png" alt="weibo头像">
-            </a>
-        </span>
-            <span id="zhihu" class="link-and-img">
-            <p>my zhihu homepage</p>
-            <a href="https://www.zhihu.com/people/reclusant" target="_blank">
-                <img src="image/head1.jpg" alt="zhuhu头像">
-            </a>
-        </span>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; @Reclusant. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
         </div>
-        <br/>
-        <div id="note1">
-            <p class="bigp">实际上，你可以在几乎任何地方找到我</p>
-            <p>以后可能会不断优化，可能 </p>
-        </div>
-        <hr/>
-        <!--puzzle-->
-        <div id="puzzle" style="padding:150px">
-            <p class="bigp">↓这是我自己编的低技术力屑题↓</p>
-            <p>（以后可能会直接移植到网站上）</p>
-            <a href="puzzle/低技术力粪作.rar" download="低技术力粪作">
-                <img src="image/puzzle.bmp" style="width:270px;height:200px;">
-            </a>
-        </div>
-        <hr/>
-        <a href="#headname" id="goto-headname">返回开头</a>
-        <p id="power">@Reclusant</p>
-    </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
