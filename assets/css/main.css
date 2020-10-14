@@ -188,7 +188,7 @@ html {
 }
 
 body {
-    background: #504424;
+    background: #4b00c4;
 }
 
 body.is-preload *,
@@ -3350,6 +3350,8 @@ body.is-ie #sidebar>.inner {
     opacity: 1;
     padding: 0;
     position: relative;
+    /* 适应中文字体 */
+    font-size: 30px;
 }
 
 #sidebar nav>ul>li:first-child {
