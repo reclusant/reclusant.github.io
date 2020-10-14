@@ -1,6 +1,6 @@
 # @微言蚁 です。
 ## 这是我一时兴起做的博客↓ 
- [![不要裂开](image/完全明白の早苗.png)](http://reclusant.top)
+ [![不要裂开](images/完全明白の早苗.png)](http://reclusant.top)
 
 ~~但是因为我什么都不会所以荣登世界最丑的博客~~
 
