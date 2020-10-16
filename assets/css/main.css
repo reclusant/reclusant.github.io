@@ -3016,23 +3016,20 @@ table.alt tfoot {
     }
 }
 
-
-/* 主题颜色 */
-
 .wrapper.alt {
-    background-color: #750606;
+    background-color: #261c3e;
 }
 
 .wrapper.style1 {
-    background-color: #3389e3;
+    background-color: #5e42a6;
 }
 
 .wrapper.style1-alt {
-    background-color: #2678c5;
+    background-color: #493382;
 }
 
 .wrapper.style2 {
-    background-color: #3399d5;
+    background-color: #5052b5;
 }
 
 .wrapper.style2-alt {
@@ -3040,7 +3037,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-    background-color: #3133b6;
+    background-color: #b74e91;
 }
 
 .wrapper.style3-alt {
@@ -3292,7 +3289,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
     padding: 2.5em 2.5em 0.5em 2.5em;
-    background: #110d49;
+    background: #312450;
     cursor: default;
     height: 100vh;
     left: 0;

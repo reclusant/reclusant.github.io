@@ -1,0 +1,140 @@
+body {
+    background-color: #eeffff;
+    text-align: center;
+    margin: 0px;
+}
+
+#headname {
+    margin-top: 0px;
+    line-height: 70px;
+    height: 50px;
+}
+
+p {
+    /*默认字号*/
+    font-size: 15px;
+    margin: 8px;
+}
+
+.smallp {
+    /*小号字号*/
+    font-size: 10px;
+}
+
+.bigp {
+    /*大号字号*/
+    font-size: 20px;
+}
+
+a {
+    font-size: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#links-to-my-homepages {
+    height: 250px;
+    padding: 20px;
+    color: #0099FF;
+    background-color: #e0ffff;
+    margin: 0 auto;
+}
+
+#links-to-my-homepages span {
+    float: left;
+    width: 20%;
+    /* margin-left: 100px; */
+}
+
+#links-to-my-homepages .link-and-img {
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+#links-to-my-homepages #bilibili {
+    margin-left: 10%;
+}
+
+#links-to-my-homepages #weibo {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#links-to-my-homepages #zhihu {
+    margin-right: 5%;
+}
+
+#note1 {
+    background-color: #f0ffff;
+}
+
+#my-github {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#goto-headname {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #d3ffff;
+    color: #0599ff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+.section {
+    position: fixed;
+    background-color: #0099ff;
+    width: 10%;
+    height: 100%;
+    margin: 0px;
+}
+
+.section .section-content {
+    border-left: 30px solid #0079ca;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+.section .section-menu {
+    float: left;
+    background-color: rgb(119, 209, 245);
+    width: 100%;
+    height: 6%;
+    /* border-bottom: 3px solid #00d2ff; */
+    line-height: 150%;
+}
+
+.section a {
+    display: block;
+    height: 30px;
+    width: 80%;
+    background-color: #0088ff;
+    margin-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.section .menu {
+    font-size: 25px;
+    color: #0055ff;
+}
+
+.section a:link,
+.section a:visited {
+    color: #0011ff;
+}
+
+.main-content {
+    float: right;
+    width: 90%;
+}
