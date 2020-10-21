@@ -2168,8 +2168,8 @@ select {
 
 select option {
     color: #ffffff;
-    /* 提示颜色1 */
-    background: #24502b;
+    /* 提示颜色ff0303 */
+    background: #ff0303;
 }
 
 select:focus::-ms-value {
@@ -2339,7 +2339,8 @@ input[type="radio"]+label:before {
     display: block;
     background: #ffffff;
     border-radius: 100%;
-    color: #312450;
+    /* 警告颜色ffd900 */
+    color: #ffd900;
     text-align: center;
     line-height: 2.5em;
     margin: 0 0 1.3em 0;
@@ -2350,27 +2351,28 @@ input[type="radio"]+label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-    color: #5e42a6;
+    /* 警告颜色ff0000 */
+    color: #ff0000;
 }
 
 .wrapper.style1-alt .icon.major:before {
-    color: #493382;
+    color: #ff0000;
 }
 
 .wrapper.style2 .icon.major:before {
-    color: #5052b5;
+    color: #ff0000;
 }
 
 .wrapper.style2-alt .icon.major:before {
-    color: #3e4094;
+    color: #ff0000;
 }
 
 .wrapper.style3 .icon.major:before {
-    color: #b74e91;
+    color: #ff0000;
 }
 
 .wrapper.style3-alt .icon.major:before {
-    color: #953d75;
+    color: #ff00a2;
 }
 
 
@@ -3036,8 +3038,8 @@ table.alt tfoot {
 /* 主题颜色 */
 
 .wrapper.alt {
-    /* 提示颜色750606 */
-    background-color: #750606;
+    /* 提示颜色ff0505 */
+    background-color: #ff0505;
 }
 
 .wrapper.style1 {
@@ -3313,7 +3315,7 @@ body.is-preload .wrapper.fade>.inner {
 #sidebar {
     padding: 2.5em 2.5em 0.5em 2.5em;
     /* sidebar背景颜色 */
-    background: #005d92;
+    background: #03283d;
     cursor: default;
     height: 100vh;
     left: 0;
@@ -3556,7 +3558,8 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:before {
-    background: #3c2c62;
+    /* sidebar下长条原本颜色 */
+    background: #173161;
 }
 
 #sidebar nav a:after {
@@ -3646,7 +3649,8 @@ body.is-preload #sidebar nav ul li {
     }
     #sidebar nav a:after {
         background-image: none;
-        background-color: #24da00;
+        /* sidebar切换适配颜色 */
+        background-color: #0095da;
     }
 }
 
