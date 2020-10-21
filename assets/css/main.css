@@ -314,7 +314,7 @@ h1.major:after {
     /* background-image: -moz-linear-gradient(to right, #007497, #00bcdd);
     background-image: -webkit-linear-gradient(to right, #007497, #00bcdd);
     background-image: -ms-linear-gradient(to right, #007497, #00bcdd); */
-    background-image: linear-gradient(to right, #ffffff, #009ccc);
+    background-image: linear-gradient(to right, #ffffff, #3389e3);
     -moz-transition: max-width 0.2s ease;
     -webkit-transition: max-width 0.2s ease;
     -ms-transition: max-width 0.2s ease;
