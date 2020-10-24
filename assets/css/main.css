@@ -1650,7 +1650,7 @@ button,
     -ms-transition: border-color 0.2s ease;
     transition: border-color 0.2s ease;
     background-color: transparent;
-    border: solid 1px !important;
+    border: solid 2px !important;
     border-color: rgba(255, 255, 255, 0.15) !important;
     border-radius: 3em;
     color: #ffffff !important;
@@ -1659,10 +1659,12 @@ button,
     /* button适应中文字体 */
     font-size: 1.2em;
     font-weight: bold;
-    height: calc(3.50em + 2px);
     letter-spacing: 0.25em;
-    line-height: 3.50em;
+    /* height 改变高度 */
+    height: calc(3.00em + 2px);
+    line-height: 3.00em;
     outline: 0;
+    /* padding 改变宽度 */
     padding: 0 2.75em;
     position: relative;
     text-align: center;
@@ -1718,7 +1720,10 @@ input[type="button"].small,
 button.small,
 .button.small {
     /* 小型按钮字体 */
-    font-size: 0.75em;
+    font-size: 0.85em;
+    height: calc(2.00em + 2px);
+    line-height: 2.00em;
+    padding: 0 1.00em;
 }
 
 input[type="submit"].large,
@@ -1730,13 +1735,22 @@ button.large,
     font-size: 1.5em;
 }
 
+input[type="submit"].works,
+input[type="reset"].works,
+input[type="button"].works,
+button.works,
+.button.works {
+    /* 作品导航按钮字体 */
+    font-size: 1.00em;
+}
+
 input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
+    /* 主要按钮颜色 */
     background-color: #ffffff;
-    /* 私密按钮颜色 */
     color: #312450 !important;
 }
 
