@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -34,7 +34,6 @@
             </nav>
         </div>
     </section>
-
     <!-- Wrapper -->
     <div id="wrapper">
 
@@ -46,7 +45,8 @@
                 <p>这是我借用的一个模板，来自 <a href="http://html5up.net">HTML5 UP</a></p>
                 <p>遵循 <a href="http://html5up.net/license">使用协议</a>.</p>
                 <p>但是我会慢慢对其进行魔改，各种版本见<a href="diary.html">日志</a></p>
-                <p>源代码见我的
+                <p>
+                    源代码见我的
                     <a href="https://github.com/reclusant/reclusant.github.io" class="icon brands fa-github"><span class="label">GitHub</span></a>
                 </p>
 
@@ -103,14 +103,16 @@
                     <section>
                         <span class="icon solid major fa-code"></span>
                         <h3>低技术力屑题</h3>
-                        <p>给npp2供的应该不会被采用的题。以后可能会直接移植到网站上。
+                        <p>
+                            给npp2供的应该不会被采用的题。以后可能会直接移植到网站上。
                             <a href="puzzle/低技术力粪作.rar" download="低技术力粪作" class="button small">下载链接</a>
                         </p>
                     </section>
                     <section>
                         <span class="icon solid major fa-gem"></span>
                         <h3>Rves社作品选</h3>
-                        <p>社内的小说与诗歌选集
+                        <p>
+                            社内的小说与诗歌选集
                             <a href="RvesClub.html" class="button small">前往</a>
                         </p>
                     </section>
@@ -135,23 +137,15 @@
                 <p>模板留下的。如果你有任何想说的，可以写在下面(但是我目前收不到2333)</p>
                 <div class="split style1">
                     <section>
-                        <form method="post" action="#">
+                        <form method="post" action="">
                             <div class="fields">
-                                <!-- <div class="field half">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" id="name" />
-                                </div>
-                                <div class="field half">
-                                    <label for="email">Email</label>
-                                    <input type="text" name="email" id="email" />
-                                </div> -->
                                 <div class="field">
                                     <!-- <label for="message">Message</label> -->
                                     <textarea name="message" id="message" rows="8"></textarea>
                                 </div>
                             </div>
                             <ul class="actions">
-                                <li><a href="" class="button submit">发送</a></li>
+                                <li><a href="#" class="button submit" onclick="form_up_load">发送</a></li>
                             </ul>
                         </form>
                     </section>
@@ -195,7 +189,26 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script>
+        // 表单提交
+        // 没做完
+        function form_up_load() {
+            var strfile = "message.txt";
+            var objfso = new activexobject("scripting.filesystemobject");
+            // 检查文件是否存在
+            if (!objfso.fileexists(strfile)) {
+                // 创建文本文件
+                var objstream = objfso.createtextfile(strfile, true);
+                //document.write("创建文本文件: " + strfile + "&lt;br&gt;");
+                // 关闭文件
+                alert("ok");
+            } else {
+                alert("文本文件: " + strfile + "已经存在&lt;br&gt;");
+            }
+            objstream.write(111111111111111111111111111);
+            objstream.close();
+        }
+    </script>
 </body>
 
 </html>
