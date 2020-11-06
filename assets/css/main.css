@@ -3057,7 +3057,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-    background-color: #3389e3;
+    background-color: #2678c5;
 }
 
 .wrapper.style1-alt {
@@ -3078,6 +3078,14 @@ table.alt tfoot {
 
 .wrapper.style3-alt {
     background-color: #953d75;
+}
+
+.wrapper.style4 {
+    background-color: #0b319c;
+}
+
+.wrapper.style4-alt {
+    background-color: #f3009a;
 }
 
 .wrapper.fullscreen {
@@ -3705,4 +3713,13 @@ body.is-preload #sidebar nav ul li {
     #intro {
         background-attachment: scroll;
     }
+}
+
+
+/* my own */
+
+#main-works h2 {
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 0.8em;
 }
